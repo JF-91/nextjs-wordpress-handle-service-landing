@@ -1,5 +1,5 @@
 {
-  "name": "frontend-wp-graphql",
+  "name": "frontend-graphql-mextjs-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "@apollo/client": "^3.6.8",
+    "@formspree/react": "^2.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@wordpress/block-library": "^9.5.0",
+    "@wordpress/block-serialization-default-parser": "^5.5.0",
+    "@wordpress/blocks": "^13.5.0",
+    "@wordpress/element": "^6.5.0",
+    "@wordpress/rich-text": "^7.5.0",
+    "graphql": "^16.5.0",
+    "html-react-parser": "^3.0.4",
+    "next": "13.2.4",
+    "numeral": "^2.0.6",
+    "query-string": "^7.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
   }
 }
